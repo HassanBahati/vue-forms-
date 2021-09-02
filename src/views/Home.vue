@@ -1,15 +1,14 @@
 <template>
-  <hello-world />
+  <newTicket />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import newTicket from "../components/Popup";
+export default {
+  name: "Home",
 
-  export default {
-    name: 'Home',
-
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    newTicket,
+  },
+};
 </script>
